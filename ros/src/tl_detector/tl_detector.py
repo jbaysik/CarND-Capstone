@@ -16,7 +16,7 @@ from cv_bridge import CvBridge
 from datetime import datetime
 from os import path
 
-PREFIX = './test_images/'
+PREFIX = './test_images/test'
 EXTENSION = 'jpg'
 file_name_format = '{:s}_{:%Y%m%d_%H%M%S}_{:d}.{:s}'
 
