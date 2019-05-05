@@ -124,7 +124,7 @@ class TLDetector(object):
             cv_image = self.cvb.imgmsg_to_cv2(self.camera_image, 'bgr8')
             cv2.imwrite(file_name, cv_image)
             
-            rospy.loginfo(file_name + ', ' + self.state)
+            rospy.loginfo(file_name + ', ' + str(self.state))
         
     def get_closest_waypoint(self, x, y):
         """Identifies the closest path waypoint to the given position
